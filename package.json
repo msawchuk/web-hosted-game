@@ -34,7 +34,7 @@
     "test": "cross-env NODE_ENV=test mocha --recursive",
     "test-travis": "cross-env NODE_ENV=travis mocha --recursive"
   },
-  "author": "G. Hemingway",
+  "author": "M. Sawchuk",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
