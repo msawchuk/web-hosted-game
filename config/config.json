@@ -1,0 +1,15 @@
+{
+  "url": "http://localhost",
+  "api_version": "/v1",
+  "mongodb": "mongodb://192.168.99.100:27017/sawchum",
+  "port": 8000,
+  "environments" : {
+    "test": {
+      "mongodb": "mongodb://192.168.99.100:27017/sawchum",
+      "port": 8081
+    },
+    "travis": {
+      "mongodb": "mongodb://127.0.0.1:27017/testing"
+    }
+  }
+}
